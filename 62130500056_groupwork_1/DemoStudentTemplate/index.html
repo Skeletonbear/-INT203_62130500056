@@ -42,6 +42,10 @@
   </style>
   
 </head>
+
+<!-- Web origin -->
+<!-- https://seniorproject.sit.kmutt.ac.th/ -->
+
 <body>
   
 <h1></h1>
@@ -49,28 +53,36 @@
 
   <div class="container-fluid pl-8 ">
 
-    <a class="navbar-brand " href="#">
+    <a class="navbar-brand " >
       <img  src="./images/logo.png" alt="" width="119" height="53" class="d-inline-block align-top ">
       <img  src="./images/sit-25-years-logo.png" alt="" width="66.88" height="53" class="d-inline-block align-top ">
-      <a class="absolute left-80 font-medium text-lg hover:text-green-300">HOME</a>
+      <a class="absolute left-80 font-medium text-lg hover:text-green-300" href="https://seniorproject.sit.kmutt.ac.th/home/search">HOME</a>
     </a>
 
     <nav class="navbar absolute left-96 pt-4">
       <div class="input-group mb-3">
 
-        <form class="d-flex"></form>
+        <form class="d-flex"> </form>
         <input type="text" class="form-control" type="search" placeholder="What's your looking for?" aria-label="Search">
           <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">2021</button>
-          <ul class="dropdown-menu dropdown-menu-end">
-          </ul>
+          <select class="dropdown-menu dropdown-menu-end">
+            <option>ALL YEARS
+            <option>2016
+            <option>2017
+            <option>2018
+            <option>2019
+            <option>2020
+            <option>2021
+          </select>
           <button type="button" class="btn btn-outline-secondary"><span class="material-icons">search</span></button>  
-        </form>
+        
 
       </div>
     </nav>
-
+ 
     <a class="font-medium text-lg hover:text-green-300 pr-9">Login</a>
-
+    
+  
   </div>
 </nav>
 
